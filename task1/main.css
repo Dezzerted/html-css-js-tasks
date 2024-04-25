@@ -1,0 +1,54 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: burlywood;
+    margin: 15px 0px;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS_4_2w6cXBr8MwNziVlPFRV6LsJHHBV6JQIbxCtc5zw&s);
+    background-size: 25% 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(245, 219, 184);
+    padding: 10px 45px;
+    font-size: 55px;
+}
+
+p {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+p:hover {
+    color: red;
+    font-size: 95px;
+}
+
+#text {
+    height:fit-content;
+    margin: auto;
+}
+
+#container {
+    background-image: url(https://media.istockphoto.com/id/157308943/photo/waves-of-sand.jpg?s=612x612&w=0&k=20&c=IgclKkRCbqShglC7ezR87vqgWJmNdwc--pNTtjeCWCI=);
+    background-size: 25% 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+#container img {
+    margin-top: 75px;
+    width: 450px;
+    height: 350px;
+}
